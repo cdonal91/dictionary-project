@@ -10,7 +10,10 @@ function App() {
           <Dictionary />
         </main>
         <footer className="coded-by">
-          <small>Coded by Carol-Ann Donaldson</small>
+          <small>
+            Coded by Carol-Ann Donaldson{" "}
+            <a href="https://github.com/cdonal91/dictionary-project">Github</a>
+          </small>
         </footer>
       </div>
     </div>

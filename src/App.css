@@ -1,3 +1,7 @@
+body {
+  text-align: center;
+  margin: 20px auto;
+}
 .coded-by {
   font-size: 13px;
   text-align: center;
