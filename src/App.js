@@ -8,7 +8,7 @@ function App() {
         <header className="App-header"></header>
         <main>
           <h1>Dictionary</h1>
-          <Dictionary />
+          <Dictionary defaultKeyword="Bee" />
         </main>
         <footer className="coded-by">
           <small>
