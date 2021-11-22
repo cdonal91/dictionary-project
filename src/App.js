@@ -7,6 +7,7 @@ function App() {
       <div className="container">
         <header className="App-header"></header>
         <main>
+          <h1>Dictionary</h1>
           <Dictionary />
         </main>
         <footer className="coded-by">

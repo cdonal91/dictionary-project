@@ -27,8 +27,8 @@ export default function Dictionary() {
           <input type="search" autoFocus={true} onChange={handleSearched} />
         </form>
         <div className="hint">
-          Search for words that you want a definition for...Bee, Moonlight,
-          Nail...
+          Search for words that you want a definition for...bee, moonlight,
+          nail...
         </div>
       </section>
       <Results results={results} />
