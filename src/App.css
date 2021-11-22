@@ -2,6 +2,10 @@ body {
   text-align: center;
   margin: 20px auto;
 }
+a {
+  color: #474168;
+}
+
 .coded-by {
   font-size: 13px;
   text-align: center;

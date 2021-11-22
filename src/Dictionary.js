@@ -22,9 +22,15 @@ export default function Dictionary() {
   }
   return (
     <div className="Dictionary">
-      <form onSubmit={search}>
-        <input type="search" autoFocus={true} onChange={handleSearched} />
-      </form>
+      <section>
+        <form onSubmit={search}>
+          <input type="search" autoFocus={true} onChange={handleSearched} />
+        </form>
+        <div className="hint">
+          Search for words that you want a definition for...Bee, Moonlight,
+          Nail...
+        </div>
+      </section>
       <Results results={results} />
     </div>
   );
