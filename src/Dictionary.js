@@ -36,7 +36,12 @@ export default function Dictionary(props) {
       <div className="Dictionary">
         <section>
           <form onSubmit={handleSubmit}>
-            <input type="search" autoFocus={true} onChange={handleSearched} />
+            <input
+              type="search"
+              autoFocus={true}
+              onChange={handleSearched}
+              defaultValue={props.defaultKeyword}
+            />
           </form>
           <div className="hint">
             Search for words that you want a definition for...bee, moonlight,
